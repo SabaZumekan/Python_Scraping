@@ -16,7 +16,7 @@ driver.get('https://www.google.co.jp/')
 query = driver.find_element(by=By.NAME, value='q')
 
 # 検索文字列を入力
-query.send_keys('クローリング')
+query.send_keys('OCA')
 
 # 3秒待つ
 time.sleep(3)
